@@ -19,10 +19,10 @@ The repository is about the Python programming language. The basic and advanced 
 - Operating System :  Windows-10
 - Python :   Version 3.9
 
-## Tested On
+## Tested Machine
 Windows-11 with Python version 3.9.13
 
-## Sample Execution
+## Execution Method
 Go to the Source/Exercise directory and run below command :
 
 ```python
@@ -58,25 +58,57 @@ To the main branch the commits are done using pull requests. This will prevent a
 
 ## Bug Fix Request
 
-Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
+Reported bugs can be found at [Bug Fix](https://github.com/rijo-robert-atu/Python/blob/989717801b3f12f3fd5def35ea06137751ba30ce/Documentation/Bug-fix.png)  
 
-If developers encounter a bug with one of the Python programs, please follow the below steps:
-- A "Bug" issue is created for the identified bug as shown below.
+When developers encounter a bug with one of the Python programs, the below steps are used to solve the issue:
+- A "Bug" issue is created for the identified bug as shown below.  
 
-![image](https://user-images.githubusercontent.com/119352610/209512161-854ed88e-c16c-474d-b11d-da1ad1154951.png)
+![image](https://github.com/rijo-robert-atu/Python/blob/989717801b3f12f3fd5def35ea06137751ba30ce/Documentation/Bug-fix.png)
 
 - Clone the Python repo to local machine.
 
-## Functionalities
-| Script | Description |
-| ----------- | ----------- |
-| project.bat | Batch file to create project structure |
-| main.py | DHCP log checker |
-| csv_creator.py | To convert the final list of values to csv file |
-| filter.py | Parse the dhcp log file |
-| read_log.py | Reading the dhcp log file |
-| unique_values.py | To clear out the duplicate values |
-| vendor.py | Get the vendor names from mac address |
+
+```
+git clone https://github.com/rijo-robert-atu/Python.git
+``` 
+
+- bug-fix branch was created for the resolution.
+  
+  ![image](https://github.com/rijo-robert-atu/Python/blob/84d658d452096b8607e7ba85e46044f0a2025052/Documentation/git%20branches.png)
+
+- Then resolve the issue in the Gitbash terminal. here the student was using the Visual Studio Code to execute the git commands.
+- The code is pushed to the test branch Once the issue is fixed. 
+- After the tests conducted in the Test branch the code is pushed to main branch.
+
+ 
+## Feature Request
+
+Feature requests can be found at [Features](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)
+
+To create a new feature in the Python programs, developer has to follow below steps :
+
+- A "update" issue is created as shown below.
+
+![image](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)
+
+- Clone the Python repo to the local machine.
+```
+git clone https://github.com/rijo-robert-atu/Python.git
+``` 
+
+- A new branch is created from "Test" branch, named "Feature_#<issue number>" as shown below.  
+
+  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
+  
+- Developer will work on the new feature. Then commits the changes to the feature_#1. Commit the changes to the Feature_#1.
+- Now, checkout to "Test" branch and merge the newly created feature branch. Delete the feature branch.
+- Once the tested are completed, Checkout to "main" branch and merge the changes made in "test" branch.
+- Push the changes on local "Test" and "main" branches to remote repo.
 
 ## Authors
-DHCP Log Checker tool was developed as a part of Infrastructure as Code module's assignment by Rijo Robert.
+
+The Python repository was developed as a part of Infrastructure as a Code module. created by Rijo RObert.  
+
+## Conclusion
+
+All the scripts in this repository was tested. The basic and adavanced concepts of python programming has been pictured in this Repository. The person who will be learning the concept of python from this repository, should be able to develop the python scripts all by himself.
