@@ -67,6 +67,57 @@ If developers encounter a bug with one of the Python programs, please follow the
 
 - Clone the Python repo to local machine.
 
+
+```
+git clone https://github.com/krishnenduATU/Python.git
+``` 
+
+- A new branch is created from the "test" branch, named "bug_fix_#<bug_fix_number>"
+  
+  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
+
+- A developer will work on the bug and fix the issue, then commit the changes. Make sure to add the bug fix number to the commit message, for example, "BugFix #4 : Corrected Pie value "
+- Now merge the newly created bug fix branch into the "test" branch. Delete the bugfix branch once it has been merged.
+- Checkout to "dev" branch and merge the changes made in the "test" branch so that all the branch are in same state..
+- Push the changes on local "dev" and "test" branches to remote repo 
+- In the end, the changes from "dev" branch is pulled to "main" branch and issue is closed in GitHub.
+ 
+## Feature Request
+
+Feature requests can be found at [Features](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)
+
+To create a new feature in the Python programs, developer should follow below steps :
+
+- A "Enhancement" issue is created as shown below.
+
+![image](https://user-images.githubusercontent.com/119352610/209514336-9782f35b-9747-4cbf-8f4e-07a7eddee361.png)
+
+- Clone the Python repo to the local machine.
+```
+git clone https://github.com/krishnenduATU/Python.git
+``` 
+
+- A new branch is created from "dev" branch, named "Feature_#<issue number>" as shown below.  
+
+  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
+  
+- Developer will work on the new feature. Then commits the changes. Make sure to add issue number to the commit message, for example "Feature #8 : Created UDP server and client scripts" to track the changes.
+- Now, checkout to "dev" branch and merge the newly created feature branch. Delete the feature branch.
+- Checkout to "test" branch and merge the changes made in "dev" branch so that all the branch are in same state.
+- Push the changes on local "dev" and "test" branches to remote repo.
+- In the end, the changes from "dev" branch is pulled to "main" branch and the feature request is closed in GitHub.
+
+## Authors
+
+This Python repository was developed as a part of Infrastructure as Code module's assignment by Krishnendu VP.  
+
+## Conclusion
+
+This Python repository covered the fundamental concepts of Python and offered a doable strategy for improving programming skills. In accordance with the provided exercises and research on the same, learners should be able to build and organise Python projects for network or server administration, log analysis, and the automation of routine tasks.
+
+
+
+
 ## Functionalities
 | Script | Description |
 | ----------- | ----------- |
