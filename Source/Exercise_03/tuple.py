@@ -1,0 +1,6 @@
+my_tuple = ("one","two","three","one","five")
+print(type(my_tuple))
+print(my_tuple.count("one"))
+print(my_tuple.index("one"))
+my_tuple.append("four")
+print(my_tuple)
