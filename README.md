@@ -89,7 +89,7 @@ To create a new feature in the Python programs, developer has to follow below st
 
 - A "update" issue is created as shown below.
 
-![image](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)
+![image](https://github.com/rijo-robert-atu/Python/blob/84d658d452096b8607e7ba85e46044f0a2025052/Documentation/feature%20branch.png)
 
 - Clone the Python repo to the local machine.
 ```
@@ -98,7 +98,7 @@ git clone https://github.com/rijo-robert-atu/Python.git
 
 - A new branch is created from "Test" branch, named "Feature_#<issue number>" as shown below.  
 
-  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
+  ![image](https://github.com/rijo-robert-atu/Python/blob/84d658d452096b8607e7ba85e46044f0a2025052/Documentation/Pull%20request%20for%20feature%20branch.png)
   
 - Developer will work on the new feature. Then commits the changes to the feature_#1. Commit the changes to the Feature_#1.
 - Now, checkout to "Test" branch and merge the newly created feature branch. Delete the feature branch.
@@ -107,7 +107,7 @@ git clone https://github.com/rijo-robert-atu/Python.git
 
 ## Authors
 
-The Python repository was developed as a part of Infrastructure as a Code module. created by Rijo RObert.  
+The Python repository was developed as a part of Infrastructure as a Code module. created by Rijo Robert.  
 
 ## Conclusion
 
