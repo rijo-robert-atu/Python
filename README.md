@@ -58,12 +58,12 @@ To the main branch the commits are done using pull requests. This will prevent a
 
 ## Bug Fix Request
 
-Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
+Reported bugs can be found at [Bug Fix](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)  
 
 If developers encounter a bug with one of the Python programs, please follow the below steps:
 - A "Bug" issue is created for the identified bug as shown below.
 
-![image](https://user-images.githubusercontent.com/119352610/209512161-854ed88e-c16c-474d-b11d-da1ad1154951.png)
+![image](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)
 
 - Clone the Python repo to local machine.
 
