@@ -74,7 +74,7 @@ git clone https://github.com/rijo-robert-atu/Python.git
 
 - bug-fix branch was created for the resolution.
   
-  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
+  ![image](https://github.com/rijo-robert-atu/Python/blob/84d658d452096b8607e7ba85e46044f0a2025052/Documentation/git%20branches.png)
 
 - Then resolve the issue in the Gitbash terminal. here the student was using the Visual Studio Code to execute the git commands.
 - The code is pushed to the test branch Once the issue is fixed. 
