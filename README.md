@@ -90,7 +90,7 @@ To create a new feature in the Python programs, developer should follow below st
 
 - A "Enhancement" issue is created as shown below.
 
-![image](https://user-images.githubusercontent.com/119352610/209514336-9782f35b-9747-4cbf-8f4e-07a7eddee361.png)
+![image](https://github.com/rijo-robert-atu/Python/blob/c1458a959f2c2a9eea0ea451f1203dcd97adae21/Documentation/Pull%20request%20for%20feature%20branch.png)
 
 - Clone the Python repo to the local machine.
 ```
