@@ -1,4 +1,4 @@
-# DHCP Log Checker
+# Python Programming
 
 ### Table of Contents
 **[Description](#description)**<br>
